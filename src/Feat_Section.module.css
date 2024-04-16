@@ -1,0 +1,16 @@
+
+.feature{
+    height: 80vh;
+    width: 100vw;
+    background-image: linear-gradient(#001633, #42758C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+.wrapper{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap; 
+} 

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ss-home-heading{
+    font-family: 'Playfair Display SC', serif;
+}
+

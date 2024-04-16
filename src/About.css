@@ -1,0 +1,22 @@
+.ss-image2, .ss-image1{
+    height: 470px;
+    width: 690px;
+    object-fit: cover;
+}
+
+.ss-about{
+    background-color: #001633;
+}
+
+.ss-text1 h3 , .ss-text2 h3{
+    font-family: 'Playfair Display SC';
+    color: #85d5e6;
+    /* font-size: 48px; */
+}
+
+.ss-text1 p, .ss-text2 p{
+    font-family: 'Noto Sans';
+    color:white;
+    /* font-size: 18px; */
+
+}

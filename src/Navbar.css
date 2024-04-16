@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.nav__link {
+  color: white; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out; /* Add transition for border-bottom */
+  border-bottom: 2px solid transparent; /* Set initial border as transparent */
+}
+
+.nav__link:hover {
+  color: #85d5e6;
+  border-bottom-color: #85d5e6; /* Change the border color on hover */
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+  background: #001633;
+}
+.nav__brand {
+  /* margin-right: 80px; */
+  margin-left: 50px; 
+}
+
+.nav__brand img{
+  height: 35px;
+  width: 350px;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  margin-right: 50px;
+}
+
+.nav__item {
+  font-size: 18px;
+}
+
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    height: 93vh;
+    width: 50vw;
+    background: rgb(0, 33, 65);
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+}
+/* Active Class */
+.nav__active {
+  transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
