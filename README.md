@@ -3,11 +3,11 @@ This project is a web-based Sign Language Interpreter that allows users to input
 
 <h1>Technologies Used</h1>
 <h2>Frontend</h2>
-React.js: A JavaScript library for building user interfaces, React.js was chosen for its component-based architecture, virtual DOM, and efficient rendering, which are well-suited for creating interactive web applications.<br>
+React.js: A JavaScript library for building user interfaces, React.js was chosen for its component-based architecture, virtual DOM, and efficient rendering, which are well-suited for creating interactive web applications.<br><br>
 
 HTML & CSS: Standard markup and styling languages used for structuring and styling the user interface of the application.<br>
 
-JavaScript: The primary programming language for adding interactivity and functionality to the frontend components. ES6+ features were utilized for modern JavaScript development.<br>
+JavaScript: The primary programming language for adding interactivity and functionality to the frontend components. Its features were utilized for modern JavaScript development.<br>
 
 Vite: A fast and minimalist build tool for frontend projects. Vite was chosen for its quick development server and efficient build process, enhancing the development experience.<br>
 
