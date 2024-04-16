@@ -1,20 +1,26 @@
 <h1>Front End Development of Sign Language Interpreter</h1>
-This project is a web-based Sign Language Interpreter that allows users to input sign language gestures and convert it into text. It utilizes React.js for the frontend interface.
 
-<h1>Technologies Used</h1>
-<h2>Frontend</h2>
-React.js: A JavaScript library for building user interfaces, React.js was chosen for its component-based architecture, virtual DOM, and efficient rendering, which are well-suited for creating interactive web applications.<br><br>
 
-HTML & CSS: Standard markup and styling languages used for structuring and styling the user interface of the application.<br>
 
-JavaScript: The primary programming language for adding interactivity and functionality to the frontend components. Its features were utilized for modern JavaScript development.<br>
+This project is a website interface created using React.js to facilitate interaction with a Sign Language Interpreter model. The website interface focuses on providing users with an intuitive and interactive platform for accessing Sign Language Interpreter services. It leverages multiple frameworks like Tailwind CSS, Bootstrap, and Shadow DOM to enhance the user experience and create a visually appealing interface.
 
-Vite: A fast and minimalist build tool for frontend projects. Vite was chosen for its quick development server and efficient build process, enhancing the development experience.<br>
+# Technologies Used
 
-<h1>Development Tools</h1>
-npm: The Node.js package manager used for installing project dependencies, running scripts, and managing the project's development environment.<br>
+## Frontend
 
-Git & GitHub: Version control system and hosting platform used for collaborative development, code management, and project collaboration.
+- React.js
+- HTML & CSS
+- JavaScript
+- Vite
+- Shadow DOM
+
+## Development Tools
+
+- npm
+- Git & GitHub
+
+
+
 
 <h1>Deployment</h1>
 I have used Netlify to deploy my website.Netlify was chosen for its simplicity, continuous deployment capabilities, and seamless integration with Git repositories.
