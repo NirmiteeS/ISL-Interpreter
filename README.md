@@ -20,4 +20,5 @@ Git & GitHub: Version control system and hosting platform used for collaborative
 I have used Netlify to deploy my website.Netlify was chosen for its simplicity, continuous deployment capabilities, and seamless integration with Git repositories.
 
 <h1>URL of Site</h1>
-<a>https://isl-frontend.netlify.app/</a>
+<a href="https://isl-frontend.netlify.app/">https://isl-frontend.netlify.app/</a>
+
