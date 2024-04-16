@@ -12,7 +12,7 @@ This project is a website interface created using React.js to facilitate interac
 - HTML & CSS
 - JavaScript
 - Vite
-- 
+  
 ## Development Tools
 
 - npm
