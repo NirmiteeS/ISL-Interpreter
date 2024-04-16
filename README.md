@@ -2,7 +2,7 @@
 
 
 
-This project is a website interface created using React.js to facilitate interaction with a Sign Language Interpreter model. The website interface focuses on providing users with an intuitive and interactive platform for accessing Sign Language Interpreter services. It leverages multiple frameworks like Tailwind CSS, Bootstrap, and Shadow DOM to enhance the user experience and create a visually appealing interface.
+This project is a website interface created using React.js to facilitate interaction with a Sign Language Interpreter model. The website interface focuses on providing users with an intuitive and interactive platform for accessing Sign Language Interpreter services. It leverages multiple frameworks like Tailwind CSS, and Bootstrap to enhance the user experience and create a visually appealing interface.
 
 # Technologies Used
 
@@ -12,8 +12,7 @@ This project is a website interface created using React.js to facilitate interac
 - HTML & CSS
 - JavaScript
 - Vite
-- Shadow DOM
-
+- 
 ## Development Tools
 
 - npm
