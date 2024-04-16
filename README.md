@@ -1,5 +1,5 @@
 <h1>Front End Development of Sign Language Interpreter</h1>
-This project is a web-based Sign Language Interpreter that allows users to input text and convert it into sign language gestures. It utilizes React.js for the frontend interface.
+This project is a web-based Sign Language Interpreter that allows users to input sign language gestures and convert it into text. It utilizes React.js for the frontend interface.
 
 <h1>Technologies Used</h1>
 <h2>Frontend</h2>
