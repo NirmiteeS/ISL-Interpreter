@@ -1,5 +1,8 @@
 import React from "react";
 import "./About.css";
+import upimage from "./assets/image1.png";
+import downimage from "./assets/image2.png";
+
 
 function About() {
   return (
@@ -8,7 +11,7 @@ function About() {
         <div class="flex flex-wrap items-center mt-20 text-left text-center">
           <div class="w-full md:w-3/5 lg:w-1/2 px-4">
             <img
-              src="./src/assets/image1.png"
+              src={upimage}
               alt="gem"
               class="inline-block rounded shadow-lg  border-merino-400 ss-image1"
             ></img>
@@ -29,7 +32,7 @@ function About() {
         <div class="flex flex-wrap items-center mt-20 text-left text-center">
           <div class="w-full md:w-3/5 lg:w-1/2 px-4">
             <img
-              src="./src/assets/image2.png"
+              src={downimage}
               alt="project members"
               class="inline-block rounded shadow-lg border-merino-400 ss-image2"
             ></img>

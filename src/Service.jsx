@@ -1,12 +1,14 @@
 import React from "react";
 import "./Service.css";
+import serve from "./assets/Service-image.png"
+
 function Service() {
   return (
     <div class="responsive-container-block bigContainer service-page">
       <div class="responsive-container-block Container">
         <img
           class="mainImg service-image"
-          src="./src/assets/Service-image.png"
+          src={serve}
         ></img>
         <div class="allText aboveText service-text">
           <h3 class="text-blk subHeadingText text-7xl">
